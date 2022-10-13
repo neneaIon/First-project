@@ -1,0 +1,195 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans Oriya', sans-serif;
+
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Caveat', sans-serif;
+    color: #628E90;
+    }
+
+h2 {
+    font-family:'Noto Sans Oriya', sans-serif ;
+    font-weight: normal;
+}
+
+h3 {
+    font-family:  'Caveat', sans-serif;
+    font-weight: normal;
+    
+}
+
+p {
+    color: #303b39;
+    line-height: 1.5; 
+}
+
+a {
+    color: #628E90;
+    text-decoration: none;
+    margin: 20px 10px;
+}
+
+a:hover {
+    color: #75caeb;
+}
+
+
+.top-cont {
+    background-color: #DEEDF0;
+    position: relative;
+    height: 715px;
+}
+
+
+.st-sol {
+    position: absolute;
+    right: 275px;
+    top: 25px;
+}
+
+.mountain-cloud {
+    position: absolute;
+    right: 175px;
+    bottom: 50px;
+}
+
+.st-cloud {
+    position: absolute;
+    top: 200px;
+    right: 225px;
+}
+
+.nd-cloud {
+    position: absolute;
+    top: 150px;
+    right: 425px;
+}
+
+.st-tit {
+    position: absolute;
+    top: 220px;
+    left: 200px;
+    font-size: 7.5rem;
+   
+}
+
+.st-par {
+    position: absolute;
+    top: 345px;
+    left: 200px;
+    font-size: 2rem;
+}
+
+.st-sheep {
+    position: absolute;
+    bottom: 45px;
+    right: 250px;
+}
+   
+.nd-sheep {
+    position: absolute;
+    bottom: 100px;
+    right: 475px;
+}
+
+.middle-cont {
+    position: relative;
+     
+}
+
+.middle-cont::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(../images/wolf.png);
+    opacity: 0.1;
+    background-size: 45%;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+  
+
+.nd-tit {
+    font-size: 4.5rem;
+    text-align: center;
+    padding: 20px 0 20px;
+}
+
+.text-tipe {
+    width: 75%; 
+    margin: 20px auto 40px;
+}
+
+.learn-text {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0 5px;
+    font-size: 20px;
+}
+
+.btn {
+	background-color: #628E90;
+	border-radius:37px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Noto Sans Oriya', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 1px #283966;
+}
+.btn:hover {
+	background-color: #75caeb;
+    color:#628E90;
+
+}
+.btn:active {
+	position:relative;
+	top:1px;
+    
+}
+
+.contact {
+    position: relative;
+    text-align: center;
+    padding: 10px 0 20px;
+}
+
+.touch {
+   position: relative;
+   font-size: 35px;
+   margin: 10px auto 1px;
+   
+}
+
+
+.bottom-cont {
+    background-color: #DEEDF0;
+    position: relative;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+.info {
+    color: #adbdbd;
+    padding: 20px 0;
+    font-size: 15px;
+    
+}
+
+
+
+
+
